@@ -9,7 +9,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestForSquareOfTriangle {
 
@@ -21,7 +20,6 @@ public class TestForSquareOfTriangle {
      static void beforeAll() {
         logger.info("Let's start the tests");
     }
-
 
     @BeforeEach
     void initTest(){
@@ -35,7 +33,7 @@ public class TestForSquareOfTriangle {
     @CsvSource({"-1,2,3",
                 "2,-3,5",
                 "3,4,-1"})
-    void testWithNegativeValues(int a, int b, int c) throws ExceptionForSquareOfTriangle {
+     void testWithNegativeValues(int a, int b, int c) throws ExceptionForSquareOfTriangle {
         logger.info("a = " + a + "; b = " + b + "; с = " + c );
         SquareOfTriangle triangle = new SquareOfTriangle();
         Assertions.assertThrows(ExceptionForSquareOfTriangle.class,()-> triangle.squareOfTriangle(a, b, c));
@@ -46,9 +44,10 @@ public class TestForSquareOfTriangle {
 
     @ParameterizedTest
     @Tag("Positive")
-    @DisplayName("Передадим в метод треугольник с разными сторонами")
+    @DisplayName("Comparing the square Calculation Result with the Expected")
     @CsvSource({ "12,34,43,150.9252712437516",
-                 "43,23,34,388.84444190447164" })
+                 "43,23,34,388.84444190447164",
+                 "43,24,34,388.84444190447164"})
     void triangleDifferentSidesTest(int a, int b, int c, double s) throws ExceptionForSquareOfTriangle {
         logger.info("a = " + a + "; b = " + b + "; с = " + c + "; s = " + s );
         SquareOfTriangle triangle = new SquareOfTriangle();
