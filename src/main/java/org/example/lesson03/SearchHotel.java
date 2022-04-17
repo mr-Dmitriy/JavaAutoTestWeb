@@ -47,7 +47,7 @@ public class SearchHotel {
               .click()
               .perform();
 
-        WebElement webElement5 = driver.findElement(By.cssSelector(".jss78 > .MuiFormControl-root"));
+        WebElement webElement5 = driver.findElement(By.xpath("//button//*[contains(@class,'jss') and contains(@class,'jss')][1]/*[contains(@class,'MuiFormControl-root')]"));
         action.moveToElement(webElement5)
               .click()
               .perform();
