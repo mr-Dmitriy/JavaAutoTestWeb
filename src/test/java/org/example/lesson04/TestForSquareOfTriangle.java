@@ -63,9 +63,9 @@ public class TestForSquareOfTriangle {
     @ParameterizedTest
     @Tag("Positive")
     @DisplayName("Comparing the square Calculation Result with the Expected")
-    @CsvSource({ "-12,34,43,150.9252712437516",
+    @CsvSource({ "12,34,43,150.9252712437516",
                  "43,23,34,388.84444190447164",
-                 "3,1,1,388.84444190447164"})
+                 "3,4,6,5.332682251925386"})
     void triangleDifferentSidesTest(int a, int b, int c, double s) throws ExceptionForSquareOfTriangle {
         logger.info("a = " + a + "; b = " + b + "; с = " + c + "; s = " + s );
         SquareOfTriangle triangle = new SquareOfTriangle();
