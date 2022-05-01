@@ -47,7 +47,7 @@ public class Authorization {
                 "/a[@class='j-profile-username']"));
         userProfile.click();
 
-        Thread.sleep(2000l);
+        Thread.sleep(2000L);
 
         driver.quit();
 

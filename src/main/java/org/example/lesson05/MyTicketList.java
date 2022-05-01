@@ -44,12 +44,12 @@ public class MyTicketList {
                 .build()
                 .perform();
 
-        Thread.sleep(10000l);
+        Thread.sleep(10000L);
 
         WebElement myTickets = driver.findElement(By.cssSelector(".block:nth-child(1) > .third-block_content use"));
         myTickets.click();
 
-        Thread.sleep(2000l);
+        Thread.sleep(2000L);
         driver.quit();
     }
 }

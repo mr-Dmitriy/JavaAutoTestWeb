@@ -25,7 +25,7 @@ public class CheckArrivingTrain {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.get("https://www.rzd.ru");
 
-        Thread.sleep(2000l);
+        Thread.sleep(2000L);
 
         Set<String> firstHandles = driver.getWindowHandles();
 
@@ -38,7 +38,7 @@ public class CheckArrivingTrain {
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", onlineScoreboardAtStations);
         onlineScoreboardAtStations.click();
 
-        Thread.sleep(3000l);
+        Thread.sleep(3000L);
 
         Set<String> secondHandles = driver.getWindowHandles();
         for (String handle : secondHandles) {
@@ -69,7 +69,7 @@ public class CheckArrivingTrain {
         buttonTomorrow.click();
 
 
-        Thread.sleep(10000l);
+        Thread.sleep(5000L);
 
         driver.quit();
 

@@ -47,7 +47,7 @@ public class ChangeFirstAndLastName {
                 "/a[@class='j-profile-username']"));
         userProfile.click();
 
-        Thread.sleep(2000l);
+        Thread.sleep(2000L);
 
         Actions changeDateInProfile = new Actions(driver);
 
@@ -63,7 +63,7 @@ public class ChangeFirstAndLastName {
                 .perform();
 
 
-        Thread.sleep(2000l);
+        Thread.sleep(2000L);
 
         driver.quit();
 

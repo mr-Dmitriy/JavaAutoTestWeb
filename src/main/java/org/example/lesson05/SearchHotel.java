@@ -31,7 +31,7 @@ public class SearchHotel {
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", hotelAndExcursionBookingService);
         hotelAndExcursionBookingService.click();
 
-        Thread.sleep(5000l);
+        Thread.sleep(5000L);
 
 
         Actions chooseDirectionOrHotel = new Actions(driver);
@@ -78,7 +78,7 @@ public class SearchHotel {
         WebElement buttonSearchHotel = driver.findElement(By.xpath("//span[contains(@class,'MuiButton-label')]"));
         buttonSearchHotel.click();
 
-        Thread.sleep(3000l);
+        Thread.sleep(3000L);
 
         driver.quit();
     }

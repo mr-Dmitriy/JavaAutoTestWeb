@@ -75,7 +75,7 @@ public class SearchTicket {
         buttonSearchTrain.click();
 
 
-        Thread.sleep(4000l);
+        Thread.sleep(4000L);
         driver.quit();
     }
 
