@@ -18,7 +18,6 @@
     <logback.classic>1.2.11</logback.classic>
     <logback.core>1.2.11</logback.core>
     <unit.vintage.engine>5.8.2</unit.vintage.engine>
-    <junit>4.12</junit>
     <maven.surefire.plugin>2.22.0</maven.surefire.plugin>
     <maven.surefire.report.plugin>3.0.0-M5</maven.surefire.report.plugin>
   </properties>
@@ -70,13 +69,6 @@
       <groupId>org.junit.vintage</groupId>
       <artifactId>junit-vintage-engine</artifactId>
       <version>${unit.vintage.engine}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${junit}</version>
-      <scope>test</scope>
     </dependency>
 
     <dependency>
