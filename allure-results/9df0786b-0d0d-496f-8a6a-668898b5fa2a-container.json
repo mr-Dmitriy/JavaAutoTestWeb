@@ -1,0 +1,1 @@
+{"uuid":"9df0786b-0d0d-496f-8a6a-668898b5fa2a","name":"Successful change first and last name in profile","children":["62461fd5-fffb-4394-ab15-3aea19c9ceef"],"befores":[{"name":"initMainPage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213429199,"stop":1652213439307}],"afters":[],"start":1652213429198,"stop":1652213446340}

@@ -1,0 +1,1 @@
+{"uuid":"96b53250-4966-4e11-b3ee-3c50f8139bc3","name":"Successful hotel search","children":["a3aa1aad-a128-4f75-9f1d-638022fa8d49"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213334583,"stop":1652213335452}],"afters":[],"start":1652213334582,"stop":1652213348197}

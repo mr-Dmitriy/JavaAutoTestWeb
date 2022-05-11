@@ -1,0 +1,1 @@
+{"uuid":"d0a34699-6c6d-4530-a04b-8e1d4c8bb073","name":"Successful ticket search","children":["ba23fd78-13fd-4e20-a059-2f4a7dc772bd"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213382865,"stop":1652213383434}],"afters":[],"start":1652213382863,"stop":1652213389990}

@@ -1,0 +1,1 @@
+{"uuid":"7fcf669f-b56c-41fd-bd8c-f5a625e5d9a8","name":"Successful test my ticket list","children":["211ec9b1-d0ae-42a0-b919-467a84b69962"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213348199,"stop":1652213349144}],"afters":[],"start":1652213348198,"stop":1652213363419}

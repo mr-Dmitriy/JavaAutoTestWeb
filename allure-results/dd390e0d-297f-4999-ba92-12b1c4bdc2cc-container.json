@@ -1,0 +1,1 @@
+{"uuid":"dd390e0d-297f-4999-ba92-12b1c4bdc2cc","name":"Successful check arriving train","children":["b21122c9-5fcc-464c-8c49-8864149b9ded"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213373040,"stop":1652213373602}],"afters":[],"start":1652213373039,"stop":1652213382862}

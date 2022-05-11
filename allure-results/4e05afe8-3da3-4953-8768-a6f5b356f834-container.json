@@ -1,0 +1,1 @@
+{"uuid":"4e05afe8-3da3-4953-8768-a6f5b356f834","name":"Successful authorization","children":["70c240ca-4a46-4ae4-a638-5bd90839247e"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1652213389992,"stop":1652213390702}],"afters":[],"start":1652213389991,"stop":1652213396747}
